@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mangu's Coffee shop</title>
+        <style>
+            img {
+                width: 100%;
+                display: block;
+                border-radius: 8px;
+            }
+
+            .card {
+                background-color: #FFF8E7;
+                width: 280px;
+                box-sizing: border-box;
+                border-radius: 8px;
+                padding: 16px;
+                border: 2px solid #D8C3A5;
+                transition: transform 0.5s, box-shadow 0.5s;
+                color: #4B2E2E;
+            }
+
+            .card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 16px #6F4E37;
+            }
+
+            .card h3,
+            .price {
+                text-align: center;
+            }
+
+            .price {
+                font-weight: bold;
+            }
+
+            button {
+                background-color: orange;
+                border: 1px solid orange;
+                color: white;
+                padding: 8px;
+                border-radius: 8px;
+                width: 100%;
+                transition: background-color 0.5s, transform 0.5s;
+            }
+
+            button:hover {
+                background-color: darkorange;
+                transform: scale(1.03);
+            }
+
+            #top-bar {
+                background-color: #4B2E2E;
+                height: 100px;
+                border-radius: 10px;
+                padding: 8px;
+                position: static;
+                margin-bottom: 30px;
+            }
+
+            #top-bar>h1 {
+                color: #F5E6D3;
+                text-align: center;
+                font-style: italic;
+                letter-spacing: 2px;
+                text-decoration: underline;
+                font-family: sans-serif;
+            }
+
+            #top-bar>p {
+                color: #D8C3A5;
+                text-align: center;
+                font-size: 20px;
+            }
+
+            body {
+                background: #F8F4EF;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: repeat(4, 280px);
+                gap: 20px;
+                justify-content: center;
+                
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="top-bar">
+            <h1>☕ Mangu's Coffee Shop</h1>
+            <p>Welcome to our coffee website!</p>
+        </div>
+
+        
+        <div class="container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?w=500&h=500&fit=crop" alt="Cappuccino">
+                <h3>Cappuccino</h3>
+                <p class="price">Price: ₹100</p>
+                <button type="submit">Buy</button>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=500&h=500&fit=crop" alt="Espresso">
+                <h3>Espresso</h3>
+                <p class="price">Price: ₹80</p>
+                <button type="submit">Buy</button>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1561047029-3000c68339ca?w=500&h=500&fit=crop" alt="Latte">
+                <h3>Latte</h3>
+                <p class="price">Price: ₹120</p>
+                <button type="submit">Buy</button>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=500&h=500&fit=crop" alt="Mocha">
+                <h3>Mocha</h3>
+                <p class="price">Price: ₹140</p>
+                <button type="submit">Buy</button>
+            </div>
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=500&h=500&fit=crop" alt="Americano">
+                <h3>Americano</h3>
+                <p class="price">Price: ₹110</p>
+                <button type="submit">Buy</button>
+            </div>
+
+            <div class="card">
+            
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=500&h=500&fit=crop" alt="Flat White">
+            
+                <h3>Flat White</h3>
+            
+                <p class="price">Price: ₹130</p>
+            
+                <button type="submit">Buy</button>
+            
+            </div>
+            
+            <div class="card">
+            
+                <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=500&h=500&fit=crop" alt="Macchiato">
+            
+                <h3>Macchiato</h3>
+            
+                <p class="price">Price: ₹125</p>
+            
+                <button type="submit">Buy</button>
+            
+            </div>
+            
+            <div class="card">
+            
+                <img src="https://images.unsplash.com/photo-1494314671902-399b18174975?w=500&h=500&fit=crop" alt="Cold Brew">
+            
+                <h3>Cold Brew</h3>
+            
+                <p class="price">Price: ₹150</p>
+            
+                <button type="submit">Buy</button>
+            
+            </div>
+        </div>
+    
+    </body>
+</html>
